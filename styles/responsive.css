@@ -1,0 +1,14 @@
+
+/* For Tablets (Portrait and Landscape) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* For Mobile Devices */
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+}
