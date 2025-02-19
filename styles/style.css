@@ -44,7 +44,7 @@ select{
     margin-right: 15px;
 }
 .becomeASellerBtn{
-    padding: 10px 10px;
+    padding: 10px ;
     background-color: transparent;
     border: none;
 
@@ -54,5 +54,74 @@ select{
     color: white;
 }
 /* brief contact section ends here */
+/* search bar starts */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    gap: 20px;
+    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-field {
+    padding-left: 15px;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 550px;
+    width: 100%; /* Ensures responsiveness */
+}
 
+.search-field > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1; /* Makes this div take all available space */
+}
+
+.dropdown-search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 0.5px solid #9B9B9B;
+    padding: 5px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    flex: 1; /* Takes all available space */
+    width: 100%;
+    padding: 0px 10px;
+    color: #9B9B9B;
+}
+
+.input::placeholder {
+    color: #9B9B9B;
+}
+
+.search-btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 14px 23px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.get-offer{
+    color:white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #2C407C,#0164A0,#0164A0,#0164A0, #2C407C);
+}
+/* search bar ends */
 /* header section ends here  */
