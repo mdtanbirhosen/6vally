@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/rGbpxGwW/Rectangle-6.png",
+      "category": "Electronics",
+      "name": "Smartphone watch",
+      "price": 499.99,
+      "offerPrice": 399.99,
+      "discount": 20,
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/8n7p3BQV/headphone.png",
+      "category": "Accessories",
+      "name": "Noise Cancelling Headphones",
+      "price": 129.99,
+      "offerPrice": 99.99,
+      "discount": 23,
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co.com/5W4WZT8y/Rectangle-5-1.png",
+      "category": "Electronics",
+      "name": "Air Purifier Pro",
+      "price": 199.99,
+      "offerPrice": 149.99,
+      "discount": 25,
+      "rating": 4.3,
+      "available": true
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co.com/m50XkCCX/Rectangle-5.png",
+      "category": "Accessories",
+      "name": "VR One Plus Pro",
+      "price": 49.99,
+      "offerPrice": 39.99,
+      "discount": 20,
+      "rating": 4.0,
+      "available": true
+    },
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/rGbpxGwW/Rectangle-6.png",
+      "category": "Electronics",
+      "name": "Smartphone watch",
+      "price": 499.99,
+      "offerPrice": 399.99,
+      "discount": 20,
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/8n7p3BQV/headphone.png",
+      "category": "Accessories",
+      "name": "Noise Cancelling Headphones",
+      "price": 129.99,
+      "offerPrice": 99.99,
+      "discount": 23,
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co.com/5W4WZT8y/Rectangle-5-1.png",
+      "category": "Electronics",
+      "name": "Air Purifier Pro",
+      "price": 199.99,
+      "offerPrice": 149.99,
+      "discount": 25,
+      "rating": 4.3,
+      "available": true
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co.com/m50XkCCX/Rectangle-5.png",
+      "category": "Accessories",
+      "name": "VR One Plus Pro",
+      "price": 49.99,
+      "offerPrice": 39.99,
+      "discount": 20,
+      "rating": 4.0,
+      "available": true
+    }
+  ]
+  

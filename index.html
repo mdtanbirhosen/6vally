@@ -201,14 +201,96 @@
             <button class="view-all-btn button">View all</button>
           </div>
         </aside>
-        <div>
+        <div class="banner-container">
+          <!-- banner carrousel starts -->
+          <div class="carousel-container">
+            <div class="carousel">
+              <!-- Cloned images for infinite loop -->
+              <img src="./assets/banner image 1.png" alt="Image 1"> <!-- Clone of first -->
+              <img src="./assets/banner image 2.png" alt="Image 1"> <!-- Clone of first -->
+              <img src="./assets/banner image 3.png" alt="Image 1"> <!-- Clone of first -->
+              <img src="./assets/banner image 4.png" alt="Image 1"> <!-- Clone of first -->
+            </div>
+            
+            <!-- Dots Navigation -->
+            <div class="dots"> 
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+          </div>
+          <!-- banner carrousel ends -->
+           <!-- small banner start -->
 
+          <div class="small-banner-container">
+            <div class="small-banner">
+              <img src="./assets/small banner image 1.svg" alt="">
+            </div>
+            <div class="small-banner">
+              <img src="./assets/small banner image 2.svg" alt="">
+            </div>
+          </div>
+           <!-- small banner end -->
+        </div>
+        <!-- right side banner -->
+        <div class="right-side">
+          <img src="./assets/right side banner.png" alt="">
         </div>
       </section>
       <!-- banner content end -->
+       <!-- flash deal section -->
+        <section class="flash-deal">
+          <div class="offer-content">
+            <div class="offer-icon">
+              <img class="offer-star" src="./assets/offer star.svg" alt="offer-star">
+              <img class="flash-deal-icon" src="./assets/flash deal.svg" alt="flash-deal">
+            </div>
+            <!-- offer timer  -->
+            <div>
+              <h3 class="offer-title">Hurry up ! <span>Offer ends in:</span></h3>
+              <!-- timer offer -->
+              <div id="offer-timer" class="offer-timer">
+                
+              </div>
+            </div>
+          </div>
+          <!-- offered products -->
+          <div>
+            <div class="products-container">
+              <div class="products">
+                  <div class="product">
+                    <div>
+                      <img src="./assets/headphone.png" alt="headphone image">
+                      
+                    </div>
+                    <div class="card-body">
+                      <!-- rating -->
+                      <div class="rating">
+                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
+                        <span>(5)</span>
+                      </div>
+                      <h5 >category</h5>
+                      <h3>Smart watch...</h3>
+                      <div class="price">
+                        <span class="normal-price">15$</span>
+                        <span class="discount-price">12$</span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
 
     <!-- Footer start from here -->
     <footer></footer>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/offerTimer.js"></script>
+    <script src="./js/offerProducts.js"></script>
   </body>
 </html>
