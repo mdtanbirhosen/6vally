@@ -1,8 +1,18 @@
 .container {
-    max-width: 80rem; /* 1280px */
+    max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px 20px;
     
+} 
+
+.vertical-line{
+    border-left: 1px solid #E3E3E3;
+    height: 22px;
 }
 
+.button{
+    border: none;
+    background-color: transparent;
+}
 

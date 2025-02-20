@@ -7,6 +7,14 @@
     margin: 0;
     padding: 0;
 }
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /* mulish google font  */
 .mulish-font {
     font-family: "Mulish", serif;
@@ -14,13 +22,14 @@
   }
 
 /* header section starts here  */
+
 /* brief contact section stars here */
 .brief-contact {
     background-color: #EDF5FF;
 }
 
 .brief-contact>div {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,19 +56,21 @@ select{
     padding: 10px ;
     background-color: transparent;
     border: none;
-
+    display: flex;
+    
 }
 .becomeASellerBtn:hover{
     background-color: var(--primary-color);
     color: white;
 }
 /* brief contact section ends here */
+/* ------------------------------------------------------------------------------------- */
 /* search bar starts */
 .search-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10px;
+    padding: 10px 20px;
     gap: 20px;
     
 }
@@ -68,6 +79,13 @@ select{
     align-items: center;
     justify-content: center;
 }
+.full-logo{
+    display: flex;
+}
+.small-logo{
+    display: none;
+}
+
 .search-field {
     padding-left: 15px;
     border: 1px solid #EAEAEA;
@@ -113,6 +131,9 @@ select{
     padding: 14px 23px;
     border-radius: 0px 5px 5px 0px;
 }
+.search-btn:hover{
+    background-color: var(--secondary-color);
+}
 
 .get-offer{
     color:white;
@@ -123,5 +144,150 @@ select{
     border-radius: 5px;
     background: linear-gradient(to right, #2C407C,#0164A0,#0164A0,#0164A0, #2C407C);
 }
+.get-offer p{
+    font-size: 11px;
+}
+.get-offer h3{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.small-search-bar{
+    display: none;
+}
 /* search bar ends */
+
+
+/* ------------------------------------------------------------------------------------- */
+
+/* navbar starts */
+.navbar{
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.browse-category-btn{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+    gap: 15px;
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.category-down-arr{
+    padding: 20px;
+}
+.category-down-arr:hover{
+    background-color: var(--secondary-color);
+}
+/* nav links */
+.nav-links>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links>ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+/* extra login and cart wishlist are here */
+.navbar-end{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 0px;
+    
+}
+.functional-icons{
+    position: relative;
+}
+.functional-icons img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.functional-icons span{
+    padding: 2px 5.5px;
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    border-radius: 100%;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+/* navbar ends */
 /* header section ends here  */
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* main section starts */
+.main{
+    /* min-height: calc(100vh-100px); */
+    min-height: 100vh;
+    margin-top: 10px;
+}
+/* banner-aside start */
+.banner-aside{
+    padding: 20px 10px;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sidebar{
+    width: 255px;
+}
+.sidebar h3{
+    font-size: 13px;
+    font-weight: 800;
+}
+.sidebar ul{
+    padding: 10px;
+}
+
+.sidebar ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: #222222;
+    font-weight: 450;
+    border-bottom: 1px solid #F1F1F1;
+}
+.view-all-button-container{
+    padding: 0px 10px;
+}
+.view-all-btn{
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    color: #0164A0;
+}
+
+.view-all-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+    
+}
+
+
+/* ------------------------------------------------------------------------------------- */
