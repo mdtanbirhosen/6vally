@@ -1,78 +1,105 @@
-
-
-
 /* For Tablets (Portrait and Landscape) */
 
 @media screen and (max-width: 992px) {
     body {
         font-size: 16px;
     }
-    .full-logo{
+
+    .full-logo {
         display: none;
     }
-    .small-logo{
+
+    .small-logo {
         display: flex;
     }
-    .get-offer{
+
+    .get-offer {
         display: none;
     }
-    .search-field{
+
+    .search-field {
         display: none;
     }
-    .small-search-bar{
+
+    .small-search-bar {
         display: flex;
         gap: 15px;
         align-items: center;
         justify-content: center;
 
     }
+
     .search-bar {
         padding: 10px 20px !important;
         box-shadow: 0px 2px 5px rgba(80, 77, 77, 0.3);
         position: sticky;
-        top: 0px; /* This ensures it sticks to the top */
+        top: 0px;
+        /* This ensures it sticks to the top */
         left: 0;
-        background-color: white; /* Fixes overlapping issue */
+        background-color: white;
+        /* Fixes overlapping issue */
         z-index: 1000;
     }
-    .navbar{
+
+    .navbar {
         display: none;
     }
+
     /* aside navigation */
-    .sidebar{
+    .sidebar {
         display: none;
     }
-    .banner-aside{
+
+    .banner-aside {
         grid-template-columns: repeat(2, 1fr);
     }
-    .banner-container{
+
+    .banner-container {
         max-width: max-content;
     }
-    .right-side{
+
+    .right-side {
         display: none;
     }
+
     /* ------------------------------------------------------- */
-    .flash-deal{
+    .flash-deal {
         flex-direction: column;
+    }
+
+    .offer-carousel {
+        position: relative;
+        width: 90%;
+    }
+    .prev{
+        display: flex;
     }
 }
 
 /* For Mobile Devices */
 @media screen and (max-width: 576px) {
     body {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     /* navbar contact section */
-    .becomeASellerBtn{
-        
+    .becomeASellerBtn {
+
         display: none;
     }
-    .language{
+
+    .language {
         margin-right: 0px;
     }
-    .small-banner{
+
+    .small-banner {
         display: none;
+    }
+    .next{
+        right: 0px;
+    }
+    .prev{
+        left:0px;
     }
 
 

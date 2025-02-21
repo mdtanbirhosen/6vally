@@ -1,296 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap link -->
-    <!-- <link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap link -->
+  <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
 
 
-    <!-- font awesome link -->
-    <script
-      src="https://kit.fontawesome.com/663eb3174d.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
-    <!-- favicon link -->
-    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
-    <title>6valley</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/responsive.css">
-    <link rel="stylesheet" href="./styles/common.css" />
-  </head>
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/663eb3174d.js" crossorigin="anonymous"></script>
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+  <!-- favicon link -->
+  <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
+  <title>6valley</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <link rel="stylesheet" href="./styles/common.css" />
+</head>
 
-  <body class="mulish-font">
-    <!-- header start from here  -->
-    
-      <!-- brief contact section  start here -->
-      <div class="brief-contact">
-        <div class="container">
-          <!-- contact info -->
-          <div>
-            <img src="./assets/phone.svg" alt="" />
-            <span>+90-327-5345543</span>
+<body class="mulish-font">
+  <!-- header start from here  -->
+
+  <!-- brief contact section  start here -->
+  <div class="brief-contact">
+    <div class="container">
+      <!-- contact info -->
+      <div>
+        <img src="./assets/phone.svg" alt="" />
+        <span>+90-327-5345543</span>
+      </div>
+      <!-- region info -->
+      <div class="region-info">
+        <!-- currency -->
+        <div class="dropdown-region">
+          <select class="mulish-font" name="currency" id="">
+            <option value="USA">$ USA</option>
+            <option value="BDT">৳ BDT</option>
+            <option value="jpy">€ EUR</option>
+          </select>
+        </div>
+        <!-- language -->
+        <div class="dropdown-region language">
+          <img src="./assets/country.svg" alt="" />
+          <select class="mulish-font" name="USA" id="">
+            <option value="English">English</option>
+            <option value="Bangla">Bangla</option>
+            <option value="UK">UK</option>
+          </select>
+        </div>
+        <!-- became a seller button -->
+        <button class="becomeASellerBtn">Become a seller</button>
+      </div>
+    </div>
+  </div>
+  <!-- brief contact section  ends here -->
+
+  <!-- search bar starts -->
+  <div class="search-bar container">
+    <!-- nav logo -->
+    <div class="nav-logo">
+      <img class="full-logo" src="./assets/6vally-logo.svg" alt="" />
+      <img class="small-logo" src="./assets/logo.svg" alt="">
+    </div>
+    <!-- search field -->
+    <div class="search-field">
+      <div>
+        <div class="dropdown-search">
+          <img src="./assets/hamburger icon.svg" alt="hamburger icon" />
+          <i class="fa-solid fa-angle-down" style="color: #9b9b9b"></i>
+        </div>
+        <input class="input" placeholder="Search for items or store..." type="text" />
+      </div>
+      <button class="search-btn">
+        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+      </button>
+    </div>
+    <!-- get offer  -->
+    <div class="get-offer">
+      <div>
+        <h3>Get 50% OFF</h3>
+        <p>Download app now</p>
+      </div>
+      <img src="./assets/offer-box.svg" alt="" />
+    </div>
+    <!-- small search-bar -->
+    <div class="small-search-bar">
+
+      <button class="button">
+        <i class="fa-solid fa-magnifying-glass" style="color: #9b9b9b"></i>
+      </button>
+      <i class="fa-solid fa-circle-user" style="color: #757b84;"></i>
+      <button class="button">
+        <img src="./assets/hamburger icon.svg" alt="hamburger icon" />
+      </button>
+    </div>
+  </div>
+  </div>
+  <!-- search bar ends -->
+
+  <!-- navbar starts -->
+  <div class="navbar">
+    <nav class="nav-content container">
+      <!-- browse category  -->
+      <div class="browse-category-btn">
+        <img src="./assets/category hamburger.svg" alt="hamburger icon" />
+        <span>BROWSE CATEGORY</span>
+        <i class="fa-solid fa-angle-down category-down-arr" style="color: #ffffff"></i>
+      </div>
+      <!-- nav links -->
+      <div class="nav-links">
+        <ul>
+          <li>HOME</li>
+          <li>
+            OFFERS
+            <i class="fa-solid fa-angle-down" style="color: #000000"></i>
+          </li>
+          <li>
+            STORES
+            <i class="fa-solid fa-angle-down" style="color: #000000"></i>
+          </li>
+          <li>
+            BRAND
+            <i class="fa-solid fa-angle-down" style="color: #000000"></i>
+          </li>
+          <li>
+            DISCOUNTED PRODUCTS <img src="./assets/discount.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+
+      <!-- extra login and cart wishlist are here -->
+      <div class="navbar-end">
+        <!-- login btn -->
+        <button class="login-btn button">
+          <i class="fa-solid fa-circle-user" style="color: #757b84; font-size: 24px;"></i>
+          <span>LOGIN / REGISTER</span>
+        </button>
+        <div class="vertical-line"></div>
+        <!-- funnel button -->
+        <button class="button functional-icons">
+          <img src="./assets/funnel.svg" alt="" />
+          <span>6</span>
+        </button>
+        <div class="vertical-line"></div>
+        <button class="button functional-icons">
+          <img src="./assets/wishlist.svg" alt="" />
+          <span>6</span>
+        </button>
+        <div class="vertical-line"></div>
+        <button class="button functional-icons">
+          <img src="./assets/cart.svg" alt="" />
+          <span>6</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+  <!-- navbar ends -->
+
+
+  <!-- main content is here -->
+  <main class="main container">
+    <!-- banner content start -->
+    <section class="banner-aside">
+      <!-- sidebar content here -->
+      <aside class="sidebar">
+        <h3>FIND WHAT YOU NEED</h3>
+        <ul>
+          <li>Audio <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+          <li>Smartphone <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+
+          <li>Wearable <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+          <li>TV & Home Appliance <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+          <li>Mobile Accessories <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+          <li>Computer & Office <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+          <li>Camera Accessories <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+          <li>Network Components <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+          <li>Laptop, Tabs & Notebooks <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
+        </ul>
+        <div class="view-all-button-container">
+          <button class="view-all-btn button">View all</button>
+        </div>
+      </aside>
+      <div class="banner-container">
+        <!-- banner carrousel starts -->
+        <div class="carousel-container">
+          <div class="carousel">
+            <!-- Cloned images for infinite loop -->
+            <img src="./assets/banner image 1.png" alt="Image 1"> <!-- Clone of first -->
+            <img src="./assets/banner image 2.png" alt="Image 1"> <!-- Clone of first -->
+            <img src="./assets/banner image 3.png" alt="Image 1"> <!-- Clone of first -->
+            <img src="./assets/banner image 4.png" alt="Image 1"> <!-- Clone of first -->
           </div>
-          <!-- region info -->
-          <div class="region-info">
-            <!-- currency -->
-            <div class="dropdown-region">
-              <select class="mulish-font" name="currency" id="">
-                <option value="USA">$ USA</option>
-                <option value="BDT">৳ BDT</option>
-                <option value="jpy">€ EUR</option>
-              </select>
-            </div>
-            <!-- language -->
-            <div class="dropdown-region language">
-              <img src="./assets/country.svg" alt="" />
-              <select class="mulish-font" name="USA" id="">
-                <option value="English">English</option>
-                <option value="Bangla">Bangla</option>
-                <option value="UK">UK</option>
-              </select>
-            </div>
-            <!-- became a seller button -->
-            <button class="becomeASellerBtn">Become a seller</button>
+
+          <!-- Dots Navigation -->
+          <div class="dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+          </div>
+        </div>
+        <!-- banner carrousel ends -->
+        <!-- small banner start -->
+
+        <div class="small-banner-container">
+          <div class="small-banner">
+            <img src="./assets/small banner image 1.svg" alt="">
+          </div>
+          <div class="small-banner">
+            <img src="./assets/small banner image 2.svg" alt="">
+          </div>
+        </div>
+        <!-- small banner end -->
+      </div>
+      <!-- right side banner -->
+      <div class="right-side">
+        <img src="./assets/right side banner.png" alt="">
+      </div>
+    </section>
+    <!-- banner content end -->
+    <!-- flash deal section -->
+    <section class="flash-deal">
+      <div class="offer-content">
+        <div class="offer-icon">
+          <img class="offer-star" src="./assets/offer star.svg" alt="offer-star">
+          <img class="flash-deal-icon" src="./assets/flash deal.svg" alt="flash-deal">
+        </div>
+        <!-- offer timer  -->
+        <div>
+          <h3 class="offer-title">Hurry up ! <span>Offer ends in:</span></h3>
+          <!-- timer offer -->
+          <div id="offer-timer" class="offer-timer">
+
           </div>
         </div>
       </div>
-      <!-- brief contact section  ends here -->
+      <!-- offered products -->
+      <div class="offer-carousel">
+        <div class="product-carousel-container">
+          <button class="prev" onclick="prevSlide()"><i class="fa-solid fa-angle-left" ></i></button>
+          <div class="carousel-wrapper" id="carousel-wrapper">
+            <!-- Images will be dynamically added here -->
+          </div>
+          <button class="next" onclick="nextSlide()"><i class="fa-solid fa-angle-right" ></i></button>
+        </div>
+        <!-- right side blur -->
+         <div class="container-blur-side"></div>
 
-      <!-- search bar starts -->
-      <div class="search-bar container">
-        <!-- nav logo -->
-        <div class="nav-logo">
-          <img class="full-logo" src="./assets/6vally-logo.svg" alt="" />
-          <img class="small-logo" src="./assets/logo.svg" alt="">
-        </div>
-        <!-- search field -->
-        <div class="search-field">
-          <div>
-            <div class="dropdown-search">
-              <img src="./assets/hamburger icon.svg" alt="hamburger icon" />
-              <i class="fa-solid fa-angle-down" style="color: #9b9b9b"></i>
-            </div>
-            <input
-              class="input"
-              placeholder="Search for items or store..."
-              type="text"
-            />
-          </div>
-          <button class="search-btn">
-            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
-          </button>
-        </div>
-        <!-- get offer  -->
-        <div class="get-offer">
-          <div>
-            <h3>Get 50% OFF</h3>
-            <p>Download app now</p>
-          </div>
-          <img src="./assets/offer-box.svg" alt="" />
-        </div>
-        <!-- small search-bar -->
-          <div class="small-search-bar">
-           
-            <button class="button">
-              <i class="fa-solid fa-magnifying-glass" style="color: #9b9b9b"></i>
-            </button>
-            <i class="fa-solid fa-circle-user" style="color: #757b84;"></i>
-            <button class="button">
-              <img src="./assets/hamburger icon.svg" alt="hamburger icon" />
-            </button>
-          </div>
-        </div>
       </div>
-      <!-- search bar ends -->
+    </section>
+  </main>
 
-      <!-- navbar starts -->
-      <div class="navbar">
-        <nav class="nav-content container">
-          <!-- browse category  -->
-          <div class="browse-category-btn">
-            <img src="./assets/category hamburger.svg" alt="hamburger icon" />
-            <span>BROWSE CATEGORY</span>
-            <i
-              class="fa-solid fa-angle-down category-down-arr"
-              style="color: #ffffff"
-            ></i>
-          </div>
-          <!-- nav links -->
-          <div class="nav-links">
-            <ul>
-              <li>HOME</li>
-              <li>
-                OFFERS
-                <i class="fa-solid fa-angle-down" style="color: #000000"></i>
-              </li>
-              <li>
-                STORES
-                <i class="fa-solid fa-angle-down" style="color: #000000"></i>
-              </li>
-              <li>
-                BRAND
-                <i class="fa-solid fa-angle-down" style="color: #000000"></i>
-              </li>
-              <li>
-                DISCOUNTED PRODUCTS <img src="./assets/discount.svg" alt="" />
-              </li>
-            </ul>
-          </div>
+  <!-- Footer start from here -->
+  <footer></footer>
+  <script src="./js/carousel.js"></script>
+  <script src="./js/offerTimer.js"></script>
+  <script src="./js/offerProducts.js"></script>
+</body>
 
-          <!-- extra login and cart wishlist are here -->
-          <div class="navbar-end">
-            <!-- login btn -->
-            <button class="login-btn button">
-              <i class="fa-solid fa-circle-user" style="color: #757b84; font-size: 24px;"></i>
-              <span>LOGIN / REGISTER</span>
-            </button>
-            <div class="vertical-line"></div>
-            <!-- funnel button -->
-            <button  class="button functional-icons">
-              <img src="./assets/funnel.svg" alt="" />
-              <span>6</span>
-            </button>
-            <div class="vertical-line"></div>
-            <button class="button functional-icons">
-              <img src="./assets/wishlist.svg" alt="" />
-              <span>6</span>
-            </button>
-            <div class="vertical-line"></div>
-            <button class="button functional-icons">
-              <img src="./assets/cart.svg" alt="" />
-              <span>6</span>
-            </button>
-          </div>
-        </nav>
-      </div>
-      <!-- navbar ends -->
-    
-
-    <!-- main content is here -->
-    <main class="main container">
-      <!-- banner content start -->
-      <section class="banner-aside">
-        <!-- sidebar content here -->
-        <aside class="sidebar">
-          <h3 >FIND WHAT YOU NEED</h3>
-          <ul>
-            <li>Audio <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            <li>Smartphone <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            
-            <li>Wearable <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            <li>TV & Home Appliance <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            <li>Mobile Accessories <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            <li>Computer & Office <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            <li>Camera Accessories <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            <li>Network Components <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-            <li>Laptop, Tabs & Notebooks <i class="fa-solid fa-angle-right" style="color: #4B5864"></i></li>
-          </ul>
-          <div class="view-all-button-container">
-            <button class="view-all-btn button">View all</button>
-          </div>
-        </aside>
-        <div class="banner-container">
-          <!-- banner carrousel starts -->
-          <div class="carousel-container">
-            <div class="carousel">
-              <!-- Cloned images for infinite loop -->
-              <img src="./assets/banner image 1.png" alt="Image 1"> <!-- Clone of first -->
-              <img src="./assets/banner image 2.png" alt="Image 1"> <!-- Clone of first -->
-              <img src="./assets/banner image 3.png" alt="Image 1"> <!-- Clone of first -->
-              <img src="./assets/banner image 4.png" alt="Image 1"> <!-- Clone of first -->
-            </div>
-            
-            <!-- Dots Navigation -->
-            <div class="dots"> 
-              <span class="dot active" data-index="0"></span>
-              <span class="dot" data-index="1"></span>
-              <span class="dot" data-index="2"></span>
-            </div>
-          </div>
-          <!-- banner carrousel ends -->
-           <!-- small banner start -->
-
-          <div class="small-banner-container">
-            <div class="small-banner">
-              <img src="./assets/small banner image 1.svg" alt="">
-            </div>
-            <div class="small-banner">
-              <img src="./assets/small banner image 2.svg" alt="">
-            </div>
-          </div>
-           <!-- small banner end -->
-        </div>
-        <!-- right side banner -->
-        <div class="right-side">
-          <img src="./assets/right side banner.png" alt="">
-        </div>
-      </section>
-      <!-- banner content end -->
-       <!-- flash deal section -->
-        <section class="flash-deal">
-          <div class="offer-content">
-            <div class="offer-icon">
-              <img class="offer-star" src="./assets/offer star.svg" alt="offer-star">
-              <img class="flash-deal-icon" src="./assets/flash deal.svg" alt="flash-deal">
-            </div>
-            <!-- offer timer  -->
-            <div>
-              <h3 class="offer-title">Hurry up ! <span>Offer ends in:</span></h3>
-              <!-- timer offer -->
-              <div id="offer-timer" class="offer-timer">
-                
-              </div>
-            </div>
-          </div>
-          <!-- offered products -->
-          <div>
-            <div class="products-container">
-              <div class="products">
-                  <div class="product">
-                    <div>
-                      <img src="./assets/headphone.png" alt="headphone image">
-                      
-                    </div>
-                    <div class="card-body">
-                      <!-- rating -->
-                      <div class="rating">
-                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFBA49;"></i>
-                        <span>(5)</span>
-                      </div>
-                      <h5 >category</h5>
-                      <h3>Smart watch...</h3>
-                      <div class="price">
-                        <span class="normal-price">15$</span>
-                        <span class="discount-price">12$</span>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </section>
-    </main>
-
-    <!-- Footer start from here -->
-    <footer></footer>
-    <script src="./js/carousel.js"></script>
-    <script src="./js/offerTimer.js"></script>
-    <script src="./js/offerProducts.js"></script>
-  </body>
 </html>
