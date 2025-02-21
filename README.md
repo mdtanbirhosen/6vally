@@ -1,4 +1,4 @@
-# 6valley - E-commerce Website
+# 6valley - E-commerce Website [live-preview](https://mdtanbirhosen.github.io/6vally/)
 
 ## Overview
 
